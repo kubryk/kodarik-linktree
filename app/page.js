@@ -3,6 +3,7 @@ import LinkCard from "./components/LinkCard";
 import GlitchText from "./components/GlitchText";
 
 import { FaTelegramPlane, FaYoutube, FaTiktok, FaGithub } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import { IoPeople } from "react-icons/io5";
 import { HiMegaphone } from "react-icons/hi2";
 import { PiPiggyBankFill } from "react-icons/pi";
@@ -13,6 +14,7 @@ const links = [
   { icon: <HiMegaphone size={20} />, label: "Telegram канал", desc: "Новини та контент", href: "https://t.me/my_home_dev" },
   { icon: <FaYoutube size={20} />, label: "YouTube", desc: "Відео про AI та автоматизацію", href: "https://www.youtube.com/@kodarik" },
   { icon: <FaTiktok size={20} />, label: "TikTok", desc: "Короткі відео та тренди", href: "https://www.tiktok.com/@pro_kodarik" },
+  { icon: <FaXTwitter size={20} />, label: "X (Twitter)", desc: "Оновлення та думки", href: "https://x.com/Flock350618" },
   { icon: <FaGithub size={20} />, label: "GitHub", desc: "Open-source проєкти", href: "https://github.com/kubryk" },
   { icon: <PiPiggyBankFill size={20} />, label: "Підтримати канал", desc: "Monobank — банка на розвиток", href: "https://send.monobank.ua/jar/9etZWxsRDC", accent: true },
 ];
